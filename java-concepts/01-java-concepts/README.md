@@ -24,3 +24,13 @@ The goal of this day is to understand what happens when we write, compile, and r
 
 ---
 
+## Folder Structure
+
+```text
+01-java-basics/
+├── HelloWorld.java
+├── ProgramStructure.java
+├── OutputExample.java
+├── Comments.java
+├── CommandLineArguments.java
+└── README.md
