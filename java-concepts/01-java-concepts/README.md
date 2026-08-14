@@ -255,3 +255,38 @@ HelloWorld.class
 ```bash
 java HelloWorld
 ```
+
+The JVM loads and executes the compiled bytecode.
+
+Output:
+
+```text
+Hello, World!
+```
+
+---
+
+## Key Takeaways
+
+- Java programs are written in `.java` files.
+- Java source code is compiled using `javac`.
+- Compilation generates `.class` files.
+- `.class` files contain Java bytecode.
+- The JVM executes Java bytecode.
+- The JDK provides development tools such as the Java compiler.
+- The runtime environment provides the libraries and components required to execute Java applications.
+- Java's bytecode-and-JVM model enables the same compiled program to run across supported platforms.
+
+---
+
+## Interview Questions
+
+### 1. What is Java?
+
+Java is a high-level, class-based, object-oriented programming language that compiles source code into bytecode, which is executed by the JVM.
+
+### 2. What is the difference between JDK, JRE, and JVM?
+
+- **JDK** provides tools for developing, compiling, and running Java applications.
+- **JRE** represents the runtime environment required to execute Java applications.
+- **JVM** executes Java bytecode.
