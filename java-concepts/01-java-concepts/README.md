@@ -140,3 +140,39 @@ Conceptually, it includes:
 The JRE provides what is needed to run compiled Java applications.
 
 Conceptually:
+
+The `.class` file contains bytecode.
+
+The JVM loads and executes this bytecode.
+
+The JVM is responsible for several important tasks, including:
+
+- Loading classes
+- Verifying bytecode
+- Executing bytecode
+- Managing memory
+- Garbage collection
+- Providing runtime services
+
+Execution flow:
+
+```text
+Java Source Code
+      |
+      v
+Compiler (javac)
+      |
+      v
+Bytecode (.class)
+      |
+      v
+JVM
+      |
+      v
+Operating System
+      |
+      v
+Program Execution
+```
+
+---
