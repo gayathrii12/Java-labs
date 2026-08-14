@@ -216,3 +216,42 @@ Program Runs
 ```
 
 ---
+
+## Example
+
+Consider this Java program:
+
+```java
+public class HelloWorld {
+
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+### Step 1 — Write the Java Source Code
+
+The file is:
+
+```text
+HelloWorld.java
+```
+
+### Step 2 — Compile the Program
+
+```bash
+javac HelloWorld.java
+```
+
+This creates:
+
+```text
+HelloWorld.class
+```
+
+### Step 3 — Run the Program
+
+```bash
+java HelloWorld
+```
