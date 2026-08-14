@@ -121,3 +121,22 @@ into:
 ```text
 HelloWorld.class
 ```
+The `.class` file contains Java bytecode.
+
+You generally install a JDK when you want to **develop and run Java applications**.
+
+---
+
+## JRE — Java Runtime Environment
+
+The **JRE** represents the runtime environment required to execute Java applications.
+
+Conceptually, it includes:
+
+- JVM
+- Java standard libraries
+- Runtime components
+
+The JRE provides what is needed to run compiled Java applications.
+
+Conceptually:
