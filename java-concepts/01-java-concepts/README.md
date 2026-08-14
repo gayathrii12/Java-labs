@@ -80,3 +80,44 @@ HelloWorld.class
       |
       v
 Hello, World!
+
+> Note: The exact packaging and terminology have evolved in modern Java versions, but this diagram is a useful conceptual model for understanding the roles of JDK, runtime components, and the JVM.
+
+---
+
+## JDK — Java Development Kit
+
+The **JDK** is used to develop Java applications.
+
+It provides the tools required to:
+
+- Write Java programs
+- Compile Java source code
+- Run Java applications
+- Debug Java programs
+
+One important tool included with the JDK is:
+
+```text
+javac
+```
+
+The `javac` command is the Java compiler.
+
+Example:
+
+```bash
+javac HelloWorld.java
+```
+
+The compiler converts:
+
+```text
+HelloWorld.java
+```
+
+into:
+
+```text
+HelloWorld.class
+```
