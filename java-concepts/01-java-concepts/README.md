@@ -176,3 +176,43 @@ Program Execution
 ```
 
 ---
+## JDK vs JRE vs JVM
+
+| Component | Purpose |
+|---|---|
+| JDK | Used to develop, compile, and run Java applications |
+| JRE | Provides the runtime environment and libraries required to execute Java applications |
+| JVM | Executes Java bytecode |
+
+A simple way to remember it:
+
+```text
+JDK → Development
+
+JRE → Runtime Environment
+
+JVM → Executes Bytecode
+```
+
+Or conceptually:
+
+```text
+Developer
+    |
+    v
+   JDK
+    |
+    v
+Compile Java Code
+    |
+    v
+Bytecode
+    |
+    v
+JVM
+    |
+    v
+Program Runs
+```
+
+---
