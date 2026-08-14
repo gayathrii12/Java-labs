@@ -64,3 +64,19 @@ Java Virtual Machine (JVM)
         v
 Program Execution
 ```
+For example:
+
+```text
+HelloWorld.java
+      |
+      v
+    javac
+      |
+      v
+HelloWorld.class
+      |
+      v
+     JVM
+      |
+      v
+Hello, World!
